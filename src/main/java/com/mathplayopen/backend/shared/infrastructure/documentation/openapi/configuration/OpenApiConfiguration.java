@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class OpenApiConfiguration {
     @Bean
-    public OpenAPI learningPlatformO    penApi() {
+    public OpenAPI learningPlatformOpenApi() {
         var openApi = new OpenAPI();
         openApi.info(new Info()
                         .title("MathPlayOpen API")
